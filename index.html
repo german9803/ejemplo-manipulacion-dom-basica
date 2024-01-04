@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castillo del Cerdo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-content">
+
+            <img src="./img/Logo_castillo_cerdo.jpeg" alt="Logo del Castillod del Cerdo">
+            <h1>Descuento de canastas</h1>
+        
+            <form>
+                <div class="input-group">
+
+                    <div class="input-field">
+                        <input class="focusNext" tabindex="1" id="calculo1" type="number">
+                        <label>Peso en báscula</label>
+                    </div>
+    
+                    <div class="input-field">
+                        <input class="focusNext" tabindex="2" id="calculo2" value="1.85" type="number">
+                        <label>Peso de canastas</label>
+                    </div>
+                    <div class="input-field">
+                        <input class="focusNext" tabindex="3" id="calculo3" type="number">
+                        <label>Total de canastas</label>
+                    </div>
+
+                </div>
+                <div class="btn-field">
+                    <button tabindex="4" id="btnCalcular">Calcular</button>
+
+                    <button  id="btnNuevo">Nuevo</button>
+
+                </div>
+
+                <div class="resultado">
+                    <p id="result" ></p>
+                </div>
+                
+            </form>
+        </div>
+
+        
+        <button onclick="console.log('mensaje')">Botoncito</button>
+       
+    </div>
+
+    
+   
+    <script src="./scrip/script.js"></script>
+</body>
+</html>
